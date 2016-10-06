@@ -1,6 +1,16 @@
+body {
+  width: 960px;
+  margin: auto;
+}
+
+h1{
+  font-family: 'Oswald', sans-serif;
+}
+
+
 hr {
     height: 14px;
-    width: 900px;
+    width: 960px;
     border: 0;
     box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
 }
@@ -19,13 +29,52 @@ hr {
     padding: 3px;
 }
 
+/*<<<<<<< HEAD
+=======
+#logo-list ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: none;
+}
+
+#logo-list li {
+    float: right;
+    display: inline;
+    padding: 3px;
+}*/
+
+
 #logo-list li a {
     display: block;
     color: none;
     text-align: center;
+
 }
 
-h1 {
+/*h1 {
+    font-family: 'Oswald', sans-serif;
+}*/
+
+logo {
+    padding-right: 50px;
+    float: left;
+}
+
+#del {
+    display: inline;
+    clear: right;
+    font-size: 40px;
+    font-family: 'Yellowtail', cursive;
+}
+
+#best {
+    font-size: 10px;
+
+}
+
+/*h1 {
     font-family: 'Oswald', sans-serif;
 }
 
@@ -43,4 +92,34 @@ logo {
 
 #best {
     font-size: 10px;
+}*/
+/*ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: none;
 }
+
+li.social-logos2{
+  float: right;
+  display: inline;
+  padding: 1px;
+}
+
+li.social-logos{
+  float: right;
+  display: inline;
+  padding: 1px;
+}
+
+span #rss-email {
+  margin-right: 10px;
+>>>>>>> 52b83ffaa0fb8cb75bca3c3bda4e027e0522d4d6
+}
+
+li.social-logos a {
+  color: none;
+  text-align: center;
+>>>>>>> 368c93bcc4b47676ca2095c2c56a15f18f2598fc
+}*/
