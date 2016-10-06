@@ -6,7 +6,7 @@ hr {
 }
 
 
- ul{
+ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -14,26 +14,16 @@ hr {
   background: none;
 }
 
-
- li{
-   float: right;
+li{
+  float: right;
   display: inline;
-padding: 3px;
-
+  padding: 3px;
 }
-
-
-}
-
-
 
 li a {
-
   display: block;
   color: none;
   text-align: center;
-
-
 }
 
 h1{
