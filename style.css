@@ -1,12 +1,11 @@
 body {
-  width: 960px;
+  width: 900px;
   margin: auto;
 }
 
 h1{
   font-family: 'Oswald', sans-serif;
 }
-
 
 hr {
     height: 14px;
@@ -29,23 +28,6 @@ hr {
     padding: 3px;
 }
 
-/*<<<<<<< HEAD
-=======
-#logo-list ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background: none;
-}
-
-#logo-list li {
-    float: right;
-    display: inline;
-    padding: 3px;
-}*/
-
-
 #logo-list li a {
     display: block;
     color: none;
@@ -53,10 +35,6 @@ hr {
 
 }
 
-/*h1 {
-    font-family: 'Oswald', sans-serif;
-}*/
-
 logo {
     padding-right: 50px;
     float: left;
@@ -74,52 +52,49 @@ logo {
 
 }
 
-/*h1 {
-    font-family: 'Oswald', sans-serif;
+#recipe-list {
+  position: relative;
+  width: 100%;
+  height: 100%;
 }
 
-logo {
-    padding-right: 50px;
-    float: left;
+#list-bg {
+  position: absolute;
+
 }
 
-#del {
-    display: inline;
-    clear: right;
-    font-size: 40px;
-    font-family: 'Yellowtail', cursive;
+#ingrd-list1{
+  position: absolute;
+  font-family: cursive;
+  display: inline-block;
+  font-size: 22px;
+  width: 45%;
+  margin-top: 4%;
+  left: 5%;
 }
 
-#best {
-    font-size: 10px;
-}*/
-/*ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background: none;
+#ingrd-list2{
+  position: absolute;
+  font-family: cursive;
+  display: inline-block;
+  font-size: 22px;
+  width: 40%;
+  margin-top: 4%;
+  left: 55%;
 }
 
-li.social-logos2{
-  float: right;
-  display: inline;
-  padding: 1px;
+#ingredients {
+  position: absolute;
+  width: 100%;
 }
 
-li.social-logos{
-  float: right;
-  display: inline;
-  padding: 1px;
+#aboutAuthor {
+
 }
 
-span #rss-email {
-  margin-right: 10px;
->>>>>>> 52b83ffaa0fb8cb75bca3c3bda4e027e0522d4d6
+#footer {
+  position: absolute;
+  height: 100px;
+  width: 100%;
+  top: 
 }
-
-li.social-logos a {
-  color: none;
-  text-align: center;
->>>>>>> 368c93bcc4b47676ca2095c2c56a15f18f2598fc
-}*/
