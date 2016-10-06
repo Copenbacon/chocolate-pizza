@@ -1,12 +1,11 @@
 body {
-  width: 960px;
+  width: 900px;
   margin: auto;
 }
 
 h1{
   font-family: 'Oswald', sans-serif;
 }
-
 
 hr {
     height: 14px;
@@ -31,10 +30,6 @@ hr {
 float: right;
 }
 
-
-
-
-
 #logo-list li a {
     display: block;
     color: none;
@@ -42,8 +37,7 @@ float: right;
 
 }
 
-
-logo {
+#logo {
     padding-right: 50px;
     float: left;
 }
@@ -53,6 +47,54 @@ logo {
     clear: right;
     font-size: 40px;
     font-family: 'Yellowtail', cursive;
+}
+
+#recipe-list {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+#list-bg {
+  position: absolute;
+
+}
+
+#ingrd-list1{
+  position: absolute;
+  font-family: cursive;
+  display: inline-block;
+  font-size: 22px;
+  width: 45%;
+  margin-top: 4%;
+  left: 5%;
+}
+
+#ingrd-list2{
+  position: absolute;
+  font-family: cursive;
+  display: inline-block;
+  font-size: 22px;
+  width: 40%;
+  margin-top: 4%;
+  left: 55%;
+}
+
+#ingredients {
+  position: absolute;
+  width: 100%;
+}
+
+#aboutAuthor {
+
+}
+
+#footer {
+  position: absolute;
+  height: 100px;
+  width: 100%;
+  top:
+}
 
 }
 
