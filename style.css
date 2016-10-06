@@ -1,25 +1,32 @@
-ul{
-  /*list-style-type: none;*/
+hr {
+    height: 14px;
+    width: 900px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+}
+
+
+ul {
+  list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
   background: none;
 }
 
-#logo-list {
-  /*list-style-type: none;*/
-  /*display: inline;*/
-}
-
 li{
-  /*float: left;*/
+  float: right;
   display: inline;
+  padding: 3px;
 }
 
 li a {
-
-  /*display: ;*/
+  display: block;
   color: none;
   text-align: center;
-  te
+}
+
+h1{
+  font-family: 'Oswald', sans-serif;
+
 }
