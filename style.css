@@ -5,28 +5,42 @@ hr {
     box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
 }
 
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background: none;
+#logo-list ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: none;
 }
 
-li{
-  float: right;
-  display: inline;
-  padding: 3px;
+#logo-list li {
+    float: right;
+    display: inline;
+    padding: 3px;
 }
 
-li a {
-  display: block;
-  color: none;
-  text-align: center;
+#logo-list li a {
+    display: block;
+    color: none;
+    text-align: center;
 }
 
-h1{
-  font-family: 'Oswald', sans-serif;
+h1 {
+    font-family: 'Oswald', sans-serif;
+}
 
+logo {
+    padding-right: 50px;
+    float: left;
+}
+
+#del {
+    display: inline;
+    clear: right;
+    font-size: 40px;
+    font-family: 'Yellowtail', cursive;
+}
+
+#best {
+    font-size: 10px;
 }
