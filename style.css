@@ -20,12 +20,14 @@ hr {
     padding: 0;
     overflow: hidden;
     background: none;
+
 }
 
 #logo-list li {
-    float: right;
+
     display: inline;
     padding: 3px;
+float: right;
 }
 
 #logo-list li a {
@@ -35,7 +37,7 @@ hr {
 
 }
 
-logo {
+#logo {
     padding-right: 50px;
     float: left;
 }
@@ -45,11 +47,6 @@ logo {
     clear: right;
     font-size: 40px;
     font-family: 'Yellowtail', cursive;
-}
-
-#best {
-    font-size: 10px;
-
 }
 
 #recipe-list {
@@ -96,5 +93,12 @@ logo {
   position: absolute;
   height: 100px;
   width: 100%;
-  top: 
+  top:
+}
+
+}
+
+#best {
+    font-size: 10px;
+color: gray;
 }
