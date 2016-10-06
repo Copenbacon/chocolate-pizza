@@ -1,0 +1,21 @@
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: none;
+}
+
+
+li{
+  float: left;
+
+}
+
+li a {
+
+  display: block;
+  color: none;
+  text-align: center;
+  te
+}
