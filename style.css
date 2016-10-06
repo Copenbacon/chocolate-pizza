@@ -94,3 +94,7 @@ logo {
 ingrd-list li:before {
   content:'[add icon symbol here]';
 }
+
+.ingredients {
+  list-style-type: none;
+}
