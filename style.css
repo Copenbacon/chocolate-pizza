@@ -6,7 +6,11 @@ hr {
 }
 
 
+<<<<<<< HEAD
 #logo-list ul{
+=======
+ul {
+>>>>>>> master
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -14,6 +18,7 @@ hr {
   background: none;
 }
 
+<<<<<<< HEAD
 
 #logo-list li{
    float: right;
@@ -28,11 +33,24 @@ padding: 3px;
   text-align: center;
 
 
+=======
+li{
+  float: right;
+  display: inline;
+  padding: 3px;
+}
+
+li a {
+  display: block;
+  color: none;
+  text-align: center;
+>>>>>>> master
 }
 
 h1{
   font-family: 'Oswald', sans-serif;
 
+<<<<<<< HEAD
 }
 
 logo{padding-right: 50px;
@@ -46,4 +64,6 @@ font-size: 40px;
 }
 #best{font-size: 10px;
 
+=======
+>>>>>>> master
 }
